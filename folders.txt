@@ -1,0 +1,8 @@
+database
+working_documents
+static
+
+templates
+LICENSE
+main.py
+database_manager.py
