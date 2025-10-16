@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 from flask import request
-import database_manager as dbhandler
+import database_manager as dbHandler
 
 app = Flask(__name__)
 
@@ -9,7 +9,8 @@ app = Flask(__name__)
 @app.route("/index.html", methods=["GET"])
 @app.route("/", methods=["POST", "GET"])
 def index():
-    return render_template("/index.html")
+    data = dbHandler.listExtension()
+    return render_template("/index.html", content=data)
 
 
 if __name__ == "__main__":
