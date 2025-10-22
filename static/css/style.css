@@ -128,4 +128,6 @@ nav h1 {
 .form-control {
   padding: 0.5rem;
   width: 100%;
+  box-sizing: border-box;
+  border-radius: 100px;
 }

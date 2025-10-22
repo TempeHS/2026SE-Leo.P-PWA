@@ -1,3 +1,5 @@
+{% extends 'layout.html' %} {% block content %}
+<h1>Join our mailing list!</h1>
 <form action="/add.html" method="POST" class="box">
   <div>
     <label class="form-label">Email address</label>
@@ -19,3 +21,4 @@
     <button type="submit" class="btn">Submit</button>
   </div>
 </form>
+{% endblock %}
