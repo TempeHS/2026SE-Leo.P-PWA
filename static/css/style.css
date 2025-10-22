@@ -124,3 +124,8 @@ nav h1 {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.form-control {
+  padding: 0.5rem;
+  width: 100%;
+}
