@@ -24,5 +24,9 @@
   "chat.agent.enabled": false,
   "github.copilot.chat.participant.alwaysInclude": [
     "github/copilot-instructions.md"
-  ]
+  ],
+  "python.testing.unittestArgs": ["-v", "-s", "./database", "-p", "test_*.py"],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestArgs": ["."]
 }

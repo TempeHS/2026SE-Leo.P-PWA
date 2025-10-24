@@ -2,11 +2,4 @@
 
 -- Use the ▷ button in the top right corner to run the entire file.
 
-CREATE TABLE contact_list(
-    ID INTEGER NOT NULL PRIMARY KEY,
-    email TEXT NOT NULL,
-    name TEXT NOT NULL,
-    about TEXT NOT NULL,
-    image TEXT NOT NULL,
-    language TEXT NOT NULL
-    );
+ALTER TABLE `contact_list` DROP COLUMN `about`
